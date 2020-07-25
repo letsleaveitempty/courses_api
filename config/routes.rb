@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  resources :users, only: [:create, :destroy] do
+    get :courses
+  end
+
+  resources :courses, only: [:create, :destroy, :index]
+  resources :enrollments, only: [:create]
+  delete '/enrollment', to: 'enrollments#destroy', as: 'destroy_enrollment'
 end

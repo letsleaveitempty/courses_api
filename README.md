@@ -13,8 +13,8 @@ The service should expose a public REST JSON API with the following endpoints fo
 - creating a Course
 - deleting a User
 - deleting a Course
-- enrolling a User in a Course
-- withdraw a User's enrollment from a Course
+- enrolling a User in a Course x
+- withdraw a User's enrollment from a Course x
 - fetching the Courses that a User is enrolled to
 - fetching list of Courses with the number of enrollments for each Course
 
