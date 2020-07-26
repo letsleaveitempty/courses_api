@@ -1,3 +1,15 @@
+## Courses API
+start the app using Docker `docker-compose up`
+run controllers tests `rspec spec/controllers`
+
+### Possible improvements to the implementation:
+- error handling
+- change database to postgres
+- implement JSON:API standard
+- resolve potential problem with uniqueness in specs e.g using Faker
+
+=============================================
+
 Prepare a service that will implement a simple Course enrollment feature
 
 ### Data Model
