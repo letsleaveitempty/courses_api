@@ -3,6 +3,7 @@ start the app using Docker `docker-compose up`
 run controllers tests `rspec spec/controllers`
 
 ### Possible improvements to the implementation:
+- add authorization
 - error handling
 - change database to postgres
 - implement JSON:API standard
